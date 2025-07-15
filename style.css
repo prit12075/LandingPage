@@ -1,0 +1,96 @@
+body{
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f9fa;
+    scroll-behavior: smooth;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+#hero {
+    padding: 80px 20px;
+    background: linear-gradient(to bottom right, #e0f7fa, #fff);
+}
+
+#hero h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #333;
+}
+#hero p.lead {
+    font-size: 1.2rem;
+    color: #555;
+    margin-top: 20px;
+
+}
+#hero a.btn{
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    border-radius: 50px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+}
+#hero a.btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+    transition: 0.3s ;
+}
+#features h4{
+    font-weight: bold;
+    color: #0d6efd;
+    margin-bottom: 10px;
+}
+#features h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px;
+}
+#features p {
+    font-size: 1.1rem;
+    color: #666;
+}
+#Contact h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px;
+}
+#Contact p {
+    font-size: 1.1rem;
+    color: #666;
+}
+
+#Contact input,#Contact textarea {
+    border-radius: 10px;
+    border: 1px solid #ced4da;
+    padding: 10px;
+    
+}
+
+#Contact button{
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    border-radius: 50px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#Contact button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+#footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
